@@ -80,6 +80,58 @@ though they are not declared final. This concept is called "Effectively Final"
 * Advantages :
     * Easy to perform concurrency operation
     * Promotes functional programming
+    
+ ### Introduction to streams
+ - Main purpose of introducing stream is to perform operation over collection
+ - Parallel operations are easy to perform with Streams API
+ 
+ #### What is Streams ?
+ - Stream is a sequence of elements which can be created from collections
+ - Stream operation can be performed sequentially and parallel
+ 
+ ##### Streams API
+ 
+ ###### map()
+ Map method is responsible for transforming one type to another
+ 
+ ###### flatMap()
+ Similar to map. Using in context of Streams where each element in the streams
+ represents another elements
+ Multiple element Stream element:
+  - Stream of list 
+  - Stream of Arrays
+  
+ ###### distinct()
+ Return a Stream with unique elements
+
+ ###### count()
+ Return total no. of elements in Stream
+
+ ###### sorted()
+ Sort the elements in Stream
+ 
+  ###### filter()
+  Filter the elements in Stream
+  
+  ###### filter()
+  Terminal operation. Used to reduce content of Stream to single value.
+  Takes two input :
+  - 1st Parameter - default or initial value
+  - 2nd Parameter - BinaryOperator<T> 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
 
 
 
